@@ -62,6 +62,17 @@ Finally, by plotting the fitness of each individual, separated by generations 0-
 
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/906a0465-0649-4450-96b2-d396ff209d79)
 
+Similarly for the second test, with a shorter life span, a similar convergence of design was observed.  Plotting the number of limbs for Generation 0 and Generation 10 shows a similar reduction in variation of design.  
+![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/d64327de-6f75-49a5-b818-a0868b0effb5)
+
+![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/97ebf62d-b8bf-41d9-9ac3-1d0b5c2f1826)
+
+Plotting the fitness of the individuals overtime from Generation 0 to Generation 10 shows a similar trend of increasing fitness between the generations 
+
+![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/2e02cefd-5fcc-46aa-85ad-bec710569c9c)
+
+Both experiments show that the algorithm programmed produces more fit individuals overtime as well as a convergence of designs.  
+
 ### Speed of Individuals
 Another parameter tested was the speed with which each individual moved.  This speed was how quickly the joints moved up and down.  For example, a speed of 10 meant that if a leg was raised upwards, after 10 units of time the leg would begin to lift down.  In generation 0, the speed fluctuated, showing little bearing on the fitness of the individual.  However, by generation 10, the speed of the individuals mostly flatlined, showing convergence to a final value.  The graphs below show the results for the first test conducted.  
 
@@ -69,5 +80,5 @@ Another parameter tested was the speed with which each individual moved.  This s
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/e1141b8a-1ebd-4eb2-8fe3-8216d58f7b65)
 
 ### Position of Legs and Rotational Axes of Hinges
-The final parameters tested were the positions of the legs and the rotations by which hinges rotated about.  From the individuals shown in the video it can be seen the the position of the legs converged to being located near the individual's bodies and that the rotation of hinges converged to be largely the same.  This data is emphasized in the .csv file of the data from the first test provided where in Generation 10 (individuals 2502-2571), there is little change in the rotational axes and positions of the legs.
+The final parameters tested were the positions of the legs and the rotations by which hinges rotated about.  From the individuals shown in the video it can be seen the the position of the legs converged to being located near the individual's bodies and that the rotation of hinges converged to be largely the same.  This data is emphasized in the .csv file of the data from the first and second tests provided where in Generation 10 (individuals 2502-2571), there is little change in the rotational axes and positions of the legs.
 
