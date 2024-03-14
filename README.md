@@ -4,7 +4,9 @@ https://youtu.be/FBToKYKdB50
 
 ## Repository Contents
 Bugboss.py - the main program which runs the entire simulation
+
 Buginator.py - the directory of helper functions
+
 Final Simulation Results.csv - the test results of my own experiment, outlined later
 
 ## Project
