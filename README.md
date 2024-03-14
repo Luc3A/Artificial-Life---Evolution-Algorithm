@@ -1,4 +1,7 @@
 ## Artificial-Life---Evolution-Algorithm
+# Youtube Video of Experimental Results
+https://youtu.be/FBToKYKdB50
+
 # Contents
 Bugboss.py - the main program which runs the entire simulation
 Buginator.py - the directory of helper functions
@@ -21,6 +24,6 @@ The code takes the specified number of most fit parent and makes a specified num
 In the example provided, fitness is a function, fitness = (distance travelled)^2/size, in which size is just the number of body segments (including the head of the individual).  This is done to discourage species to converge to an incredibly long insect.  The distance and size are weighted by factors of 1 and 0.5 respectively.  This is done so species will evolve prioritizing distance travelled over size while still considering both factors.  
 
 # Results 
-The 'Final Simulation.csv' file in this repository is the results of the algorithm presented in the video submitted with this project.  For this test, 10 generations of 250 individuals were tested with a parent generation (Generation 0) of the same size.  By running many bugs with short life spans, a wide variety of designs were able to be tested.  In the CSV file, the generation, fitness, number of segments, speed, torques, and positions and hinges of limbs are stored.  
+The 'Final Simulation.csv' file in this repository is the results of the algorithm presented in the video linked above.  For this test, 10 generations of 250 individuals were tested with a parent generation (Generation 0) of the same size.  By running many bugs with short life spans, a wide variety of designs were able to be tested.  In the CSV file, the generation, fitness, number of segments, speed, torques, and positions and hinges of limbs are stored.  
 
 From looking at the results, an upward trend in fitness is displayed as well as a convergence of designs.  While there are some outliers, namely the two most fit bugs are outliers, the most fit members of the generation largely converge to having 12 segments and 6 legs with occasional mutations.  In addition to this, Generation 10 shows much fewer differences amongst individuals compared to Generation 0.
