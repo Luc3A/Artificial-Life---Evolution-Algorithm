@@ -30,11 +30,13 @@ The 'Final Simulation.csv' file in this repository is the results of the algorit
 From looking at the results, an upward trend in fitness is displayed as well as a convergence of designs.  While there are some outliers, namely the two most fit bugs are outliers, the most fit members of the generation largely converge to having 12 segments and 6 legs with occasional mutations.  In addition to this, Generation 10 shows much fewer differences amongst individuals compared to Generation 0.  Plotting the number of segments and number of legs per segment for generations 0 and 10 give the same conclusion.  
 
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/89e470e1-1ea1-44a8-a8dd-ef3015df35a8)
+
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/820928ed-165e-4fbd-ba4c-c6a8a3ae3cdd)
 
 From these two plots, we can see much less variation in design in generation 10.  Plotting these parameters against the fitness of individuals in generation 10 emphasizes this convergence, individuals who have converged to this design are the most fit.
 
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/baadf39e-bf5d-4ab6-8f17-f8e0929b7f19
+
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/40c19a19-2e5d-4bc1-a126-731dc3a41cc1)
 
 
