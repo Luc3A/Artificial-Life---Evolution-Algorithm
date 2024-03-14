@@ -35,7 +35,7 @@ From looking at the results, an upward trend in fitness is displayed as well as 
 
 From these two plots, we can see much less variation in design in generation 10.  Plotting these parameters against the fitness of individuals in generation 10 emphasizes this convergence, individuals who have converged to this design are the most fit.
 
-![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/baadf39e-bf5d-4ab6-8f17-f8e0929b7f19
+![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/d01939d0-a581-4ae9-b86d-04e7f229a927)
 
 ![image](https://github.com/Luc3A/Artificial-Life---Evolution-Algorithm/assets/129191037/40c19a19-2e5d-4bc1-a126-731dc3a41cc1)
 
